@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const mongo_url = String(process.env.MONGODB_URI);
 
-mongoose.connect(mongo_url, { 
+mongoose.connect("mongodb+srv://BeefyNinjaFGC:m19gghzxoDZWSdJV@fightclubdb.uoiovyn.mongodb.net/?retryWrites=true&w=majority", { 
     useNewUrlParser: true, 
     useUnifiedTopology: true,
 })
